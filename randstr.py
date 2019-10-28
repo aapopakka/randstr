@@ -1,6 +1,5 @@
 ## Generates random strings and hashes them with crypt.mksalt() and saves the hashed string in an output file
-#
-#
+
 import string
 import crypt
 import readline
@@ -18,5 +17,3 @@ file.write(crypted+"\n")
 file.close()
  
 print("Random generated string: ",randchars,"\nHash: ",crypted,"\nSalt: ",salt,"\nOutput file: ",filename)
-##
-#
